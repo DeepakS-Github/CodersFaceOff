@@ -2,14 +2,14 @@
 import FooterImage from '../../public/images/f1.png'
 const Footer = () => {
     return (
-        <div className='w-11/12 m-auto'>
+        <div className='w-11/12 mx-auto mt-96'>
 
             <div className={`flex relative justify-center text-white items-center`}>
                 <img src={FooterImage} alt="image" className='h-[80%]' />
                 <div className=" details absolute w-[90%] h-1/2 flex flex-col gap-4">
                     <h1 className='text-2xl md:text-6xl  font-bold'>Join Our Community</h1>
                     <p className='w-1/2 text-xs md:text-base'>of stargazers, explorers, and cosmic enthusiasts as we embark on a journey through the cosmos like never before.</p>
-                    <div className="inputs w-full md:w-[50%] flex flex-col md:flex-row justify-around">
+                    <div className="inputs w-full md:w-[50%] flex gap-4 flex-col md:flex-row justify-around">
                         <input type="text" name="" id="" placeholder='Enter Your Mail' className='w-[80%] rounded-xl px-4 text-black' />
                         <button className='py-4 px-7 bg-[#A9C2CB] rounded-xl'>Subscribe</button>
                     </div>
