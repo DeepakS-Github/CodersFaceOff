@@ -2,7 +2,7 @@ import React from 'react'
 
 function navbar() {
   return (
-    <div className='flex justify-between m-auto w-11/12'>
+    <div className='flex justify-between m-auto w-11/12 mt-4'>
         <div className=' text-xl font-black'>
             ODYSSEY
         </div>
