@@ -1,5 +1,3 @@
-import './App.css'
-
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import DeepakComponent3 from './components/DeepakComponent3'
